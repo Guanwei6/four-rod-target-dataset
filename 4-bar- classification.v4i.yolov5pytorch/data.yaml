@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Distinguishable 4-bar target', 'Indistinguishable 4-bar target', 'threshold 4-bar target']
+
+roboflow:
+  workspace: material-detect
+  project: 4-bar-classification
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/material-detect/4-bar-classification/dataset/4
